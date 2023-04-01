@@ -19,6 +19,7 @@ import {
 } from "react-icons/fa";
 import { GiBookCover } from "react-icons/gi";
 import { IconContext } from "react-icons";
+import CartWidget from './CardWidget';
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -69,6 +70,7 @@ const Navbar = () => {
                 </div>
               </MenuItemLink>
             </MenuItem>
+            <MenuItem><CartWidget /></MenuItem>
           </Menu>
         </IconContext.Provider>
       </Wrapper>

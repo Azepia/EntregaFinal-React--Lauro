@@ -1,6 +1,5 @@
 No me estaria funcionando la animación de carrusel.
 Tampoco me queda claro como cambiar la paleta de colores de la navbar.
-También esta fallando el CardWidget-
 
 
 
