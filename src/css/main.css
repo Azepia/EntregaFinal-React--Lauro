@@ -1,0 +1,49 @@
+:root {
+    --catamaran-font: 'Catamaran', sans-serif;
+    --mulish-font: 'Mulish', sans-serif;
+    --primary-color: #ffd894;
+    --secondary-color: #6be696;
+    --body-bg-color: #1d1d1d;
+    --border-color: #555555;
+    --success-color: #4f8a10;
+    --error-color: #d8a600;
+    --info-color: #318f63;
+    --just-white: #ffffff;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    font-family: var(--mulish-font);
+  }
+  
+  body {
+    background-color: var(--body-bg-color);
+    color: var(--just-white);
+  }
+  
+  button {
+    border: none;
+    background: none;
+  }
+  
+  .button-primary {
+    background-color: var(--primary-color);
+    border: none;
+    font-family: var(--mulish-font);
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 20px auto;
+    width: 112px;
+    height: 36px;
+    cursor: pointer;
+  }
+  
+  li {
+    list-style: none;
+  }
