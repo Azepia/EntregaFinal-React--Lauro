@@ -1,5 +1,4 @@
-No me estaria funcionando la animación de carrusel.
-Tampoco me queda claro como cambiar la paleta de colores de la navbar.
+El NavBar tira un error en la line 33 que no me queda muy claro
 
 
 
