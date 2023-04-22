@@ -5,5 +5,4 @@
 /pages
 
 # production
-/css
-/sass
+/ignored
